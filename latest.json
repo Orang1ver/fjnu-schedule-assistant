@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 5,
-  "versionName": "1.0.4",
+  "versionCode": 6,
+  "versionName": "1.0.5",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.4/app-release.apk",
-  "sha256": "f0e770232801263269312434cf070140490d0227a38bf20670e4de71655e6a3f",
-  "size": 63878824,
-  "changelog": "周课表改为星期 × 节次的整周网格，可以同时查看七天的课程分布。\n不同课程使用不同颜色，同名课程在今日安排和不同周次中保持同色。\n支持放大视图、星期日期、今日突出显示和每日课程数量；点击课程查看完整信息。\n重叠课程集中展开，未知节次保留在待确认区域；适配窄屏、大字体和横屏。\n课程块使用轻量色层，保留既有流畅度优化及更新检查修复。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.5/app-release.apk",
+  "sha256": "ee5728a3a50850771bafe818f70751f9178f83e7ac20953817311df936d23520",
+  "size": 64113064,
+  "changelog": "替换为用户提供的高清福师大校徽，更新桌面图标与应用内校徽。\n桌面图标适配 Android 自适应裁切，主体居中并保留安全边距。\n保留整周课表、课程配色、流畅度优化和软件更新功能。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
 }
