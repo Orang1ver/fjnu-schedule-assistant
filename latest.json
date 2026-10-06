@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 4,
-  "versionName": "1.0.3",
+  "versionCode": 5,
+  "versionName": "1.0.4",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.3/app-release.apk",
-  "sha256": "2c673a8a0b313d1139fc65c8954e2b089a91c5addb5599916ed83ec3b98200f8",
-  "size": 63698304,
-  "changelog": "修复更新检查遇到 unexpected end of stream 时直接失败：断流最多重试三次，拒绝截断的更新信息。\n默认使用同一 GitHub 仓库的 API 更新信息，并保留发布地址作为备用；已有默认地址自动迁移。\n更新检查失败采用五分钟退避，不再阻止六小时内重新检查；手动检查始终可用。\n流畅档彻底关闭实时背景模糊、折射与内置动画，均衡和完整档保留玻璃效果。\n新增可关闭的帧耗时诊断浮层，显示屏幕刷新率、构建/渲染 P95 和超预算帧数，可复制数据。\n使用原签名，覆盖安装保留账号、课表及个人设置。\n"
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.4/app-release.apk",
+  "sha256": "f0e770232801263269312434cf070140490d0227a38bf20670e4de71655e6a3f",
+  "size": 63878824,
+  "changelog": "周课表改为星期 × 节次的整周网格，可以同时查看七天的课程分布。\n不同课程使用不同颜色，同名课程在今日安排和不同周次中保持同色。\n支持放大视图、星期日期、今日突出显示和每日课程数量；点击课程查看完整信息。\n重叠课程集中展开，未知节次保留在待确认区域；适配窄屏、大字体和横屏。\n课程块使用轻量色层，保留既有流畅度优化及更新检查修复。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
 }
