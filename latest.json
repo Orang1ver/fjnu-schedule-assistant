@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 7,
-  "versionName": "1.0.6",
+  "versionCode": 8,
+  "versionName": "1.0.7",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.6/app-release.apk",
-  "sha256": "169f01664eff4366370f716aee88e01e7af2932b5fe237f3145c9433055b4dd8",
-  "size": 64332560,
-  "changelog": "采用已确认的「校门＋课表」新图标，酒红底色、暖白图案和珊瑚色课程格。\n图案下方加入宋体风格「福建师范大学」，同步更新桌面图标和应用内标识。\n桌面图标使用同色背景，适配 Android 自适应裁切并保留文字安全边距。\n保留整周课表、课程配色、流畅度优化和软件更新功能。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.7/app-release.apk",
+  "sha256": "ec1ff78e3608538587c47478dcdd344fc5f13594c4820cdfedbdcb085ca9bbed",
+  "size": 64156116,
+  "changelog": "界面左上角和关于页采用透明底的简化「校门＋课表」标识，去掉突兀的方形红底与缩小文字。\n应用内标识跟随蓝色、青色玻璃主题及深浅模式自动配色，使用柔和曲线和圆角细节。\n桌面图标改为深蓝底色、冷白校门和青色课程格，保留版画风格及宋体「福建师范大学」，与两套玻璃主题协调。\n应用内采用轻量矢量绘制，不增加模糊、动画或图片滤镜。\n保留整周课表、课程配色、流畅度优化和软件更新功能。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
 }
