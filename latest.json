@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 6,
-  "versionName": "1.0.5",
+  "versionCode": 7,
+  "versionName": "1.0.6",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.5/app-release.apk",
-  "sha256": "ee5728a3a50850771bafe818f70751f9178f83e7ac20953817311df936d23520",
-  "size": 64113064,
-  "changelog": "替换为用户提供的高清福师大校徽，更新桌面图标与应用内校徽。\n桌面图标适配 Android 自适应裁切，主体居中并保留安全边距。\n保留整周课表、课程配色、流畅度优化和软件更新功能。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.6/app-release.apk",
+  "sha256": "169f01664eff4366370f716aee88e01e7af2932b5fe237f3145c9433055b4dd8",
+  "size": 64332560,
+  "changelog": "采用已确认的「校门＋课表」新图标，酒红底色、暖白图案和珊瑚色课程格。\n图案下方加入宋体风格「福建师范大学」，同步更新桌面图标和应用内标识。\n桌面图标使用同色背景，适配 Android 自适应裁切并保留文字安全边距。\n保留整周课表、课程配色、流畅度优化和软件更新功能。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
 }
