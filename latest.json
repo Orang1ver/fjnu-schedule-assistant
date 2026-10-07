@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 10,
-  "versionName": "1.0.9",
+  "versionCode": 11,
+  "versionName": "1.0.10",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.9/app-release.apk",
-  "sha256": "571dd910fc7d0da2af8efbdf1c17726c0b9d3c912cf82fdf6261c13a69852c05",
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.10/app-release.apk",
+  "sha256": "a3edb8638df1e14833e5c2a65319491b1236a22b9fcf3d25a8573ce80a287dd2",
   "size": 64333930,
-  "changelog": "压缩周课表顶部，将大标题与周次选择器合并为紧凑栏，把更多空间留给课程网格。\n课程名在课程块上半区居中，教室在下半区居中，改善留白与视觉对称性。\n优先显示教室，支持两行地点；单节课空间足够时也显示教室。\n保留七天同屏、日期、每日课程数量、选周、切周、本周按钮、课程配色及点击详情。\n已通过大字体、横屏、单双周、重叠课程和未知节次验证；保留既有流畅度优化。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
+  "changelog": "周课表每节格子加高，让课程名和教室显示更完整，晚课通过上下滑动查看。\n正常手机视口固定星期、日期栏；极矮横屏配合大字体时随表格滚动，避免挤占课程区域。\n左侧每节标注开始和结束时间，使用用户的作息设置；未配置的额外节次不推断时间。\n保留课程和教室上下对称、课程配色、七天列、放大、重叠提示和点击详情；切换周次自动回到顶部。\n已通过滚动晚课、时间设置、切周、大字体和横屏回归检查，沿用既有流畅度优化。\n原签名覆盖安装，保留账号、课表和个人设置。\n"
 }
