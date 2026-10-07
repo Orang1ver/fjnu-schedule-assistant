@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 9,
-  "versionName": "1.0.8",
+  "versionCode": 10,
+  "versionName": "1.0.9",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.8/app-release.apk",
-  "sha256": "8e204614715b6fd65052adac3a9e5eda8422e5e58bf8e56fb54b7822bd0a9a7a",
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.0.9/app-release.apk",
+  "sha256": "571dd910fc7d0da2af8efbdf1c17726c0b9d3c912cf82fdf6261c13a69852c05",
   "size": 64333930,
-  "changelog": "采用用户确认的渐变桌面图标：左上深蓝、右下青色，保留冷白校门、课程格与宋体「福建师范大学」。\n使用原生九宫格边缘伸展适配自适应图标，保留主体比例并避免渐变图案出现方形边界。\n应用内继续使用透明、随蓝／青主题配色的轻量矢量标识。\n保留整周课表、课程配色、流畅度优化和软件更新功能。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
+  "changelog": "压缩周课表顶部，将大标题与周次选择器合并为紧凑栏，把更多空间留给课程网格。\n课程名在课程块上半区居中，教室在下半区居中，改善留白与视觉对称性。\n优先显示教室，支持两行地点；单节课空间足够时也显示教室。\n保留七天同屏、日期、每日课程数量、选周、切周、本周按钮、课程配色及点击详情。\n已通过大字体、横屏、单双周、重叠课程和未知节次验证；保留既有流畅度优化。\n原签名覆盖安装，保留账号、课表及个人设置。\n"
 }
