@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 16,
-  "versionName": "1.2.2",
+  "versionCode": 17,
+  "versionName": "1.2.3",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.2.2/app-release.apk",
-  "sha256": "cd6555e937d2596bd2e4043a7fc2f51c5b5d8cbf524165be5a1d8acd2eb78011",
-  "size": 64946003,
-  "changelog": "1.2.2 闽江大学教务跳转兼容修复。\n\n- 核实闽江大学门户的教务链接使用 HTTP，修复点击“教务管理系统”时被应用拦截的问题。\n- 仅为 jwgl.mju.edu.cn 增加旧教务连接兼容，首次访问提示连接未加密，确认后继续；其他 HTTP 主机和非默认端口仍拦截。\n- 新增“直接打开教务系统”入口，减少门户跳转失败的影响。\n- 被拦截时显示协议、主机和端口，隐藏登录票据和查询参数，便于定位后续学校入口差异。\n- 保留 1.2.1 的黑屏、标签错位、作息和课程布局修复；名称与图标保持不变。\n\n本版修复已确认的跳转拦截；闽江大学课表完整性、福建理工大学实际登录仍待真实账号验证。后台同步仅对已验证具备该能力的学校开放，当前三校尚未启用。\n\n沿用原签名覆盖安装，保留账号、课表和个人设置。\n"
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.2.3/app-release.apk",
+  "sha256": "8d577af51e4d8b60a6aede2389b5419923dc8aec535d1fdbb03aff8ef32092f8",
+  "size": 64950091,
+  "changelog": "1.2.3 成都理工大学接入测试版。\n\n- 学校目录增加成都理工大学，可搜索“成理”“成都理工”或“CDUT”。\n- 新增独立强智教务网页适配器，复用登录、自动读取、预览确认和更新课表流程。\n- 按表头及合并单元格定位星期，处理单双周、非连续周次和节次，同名课程不同安排分别保留。\n- 未知时间保留并提示；无法确认学期或页面结构时停止导入，保留原课表。\n- 兼容学校统一身份认证；仅为其教务 HTTP 回调主机增加访问前确认。\n- 成都理工的开学日期和作息须自行填写确认后再开启提醒。\n\n已完成公开入口核查和离线样本测试，尚未通过成都理工真实账号验证登录后的课表完整性。本版为待验证接入；四校后台定时同步仍未启用。\n\n沿用原签名覆盖安装，保留账号、课表和个人设置。\n"
 }
