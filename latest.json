@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "cn.fjnu.scheduleassistant",
-  "versionCode": 17,
-  "versionName": "1.2.3",
+  "versionCode": 18,
+  "versionName": "1.2.4",
   "minSdk": 26,
-  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.2.3/app-release.apk",
-  "sha256": "8d577af51e4d8b60a6aede2389b5419923dc8aec535d1fdbb03aff8ef32092f8",
-  "size": 64950091,
-  "changelog": "1.2.3 成都理工大学接入测试版。\n\n- 学校目录增加成都理工大学，可搜索“成理”“成都理工”或“CDUT”。\n- 新增独立强智教务网页适配器，复用登录、自动读取、预览确认和更新课表流程。\n- 按表头及合并单元格定位星期，处理单双周、非连续周次和节次，同名课程不同安排分别保留。\n- 未知时间保留并提示；无法确认学期或页面结构时停止导入，保留原课表。\n- 兼容学校统一身份认证；仅为其教务 HTTP 回调主机增加访问前确认。\n- 成都理工的开学日期和作息须自行填写确认后再开启提醒。\n\n已完成公开入口核查和离线样本测试，尚未通过成都理工真实账号验证登录后的课表完整性。本版为待验证接入；四校后台定时同步仍未启用。\n\n沿用原签名覆盖安装，保留账号、课表和个人设置。\n"
+  "apkUrl": "https://github.com/Orang1ver/fjnu-schedule-assistant/releases/download/v1.2.4/app-release.apk",
+  "sha256": "469fee63e3c5413b739cfe1774b018a2771b7ba3aa77ac48a076dd54ccab00b0",
+  "size": 64950595,
+  "changelog": "1.2.4 成都工业学院接入测试版。\n\n- 学校目录增加成都工业学院，可搜索“成工”“成都工业”“CDTU”及旧名“成都电子机械高等专科学校”。\n- 使用用户提供的当前学生入口 cdtutms.cdtu.edu.cn/jsxsd/framework/xsMainV.htmlx，复用强智网页适配器和统一预览确认流程。\n- 强智适配器按学校配置选择教务主机；成都工业学院与成都理工大学分别标识和保存，避免同学号混用。\n- 增加同源内嵌页面课表识别及延迟加载监听，保留学期核对、单双周、非连续节次和未知时间处理。\n- 成都工业学院的开学日期和作息须自行填写确认后再开启提醒。\n\n入口由用户提供，本环境连接超时，当前系统版本及登录后课表结构尚未核实。已完成离线样本与应用回归测试；实际登录、课表完整性和主动更新仍需真实设备核对。五校后台定时同步仍未启用。\n\n沿用原签名覆盖安装，保留账号、课表和个人设置。\n"
 }
